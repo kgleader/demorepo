@@ -12,3 +12,4 @@ fun percentInThreeYears(initial: Int, percent: Int): Double {
 	val sum = initial * (1 + percent / 100.toDouble()).pow(3)
 	return sum
 }
+
