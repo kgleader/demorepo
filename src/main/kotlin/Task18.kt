@@ -25,7 +25,8 @@ open class Person(val name: String, val surName: String, val age: Int){
 	}
 }
 
-class Employee(name: String,surName: String, age: Int, val experience: Int) : Person(name,surName,age){
+class
+Employee(name: String,surName: String, age: Int, val experience: Int) : Person(name,surName,age){
 
 	override fun introduceYourself() {
 		println("my name is $name $surName, i have $experience years of experience")
